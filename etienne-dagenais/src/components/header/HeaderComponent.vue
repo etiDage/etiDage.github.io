@@ -24,7 +24,7 @@ export default {
     tabs: [
       {
         text: "Home",
-        link: "/home",
+        link: "/",
       },
       {
         text: "Work",

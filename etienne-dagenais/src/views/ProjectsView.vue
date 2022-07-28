@@ -1,8 +1,16 @@
 <template>
   <v-container fluid>
-    <v-row>
-      <v-col cols="5">
+    <v-row justify="center">
+      <v-col cols="6">
         <project :project="projects[0]" />
+      </v-col>
+    </v-row>
+    <v-row justify="center">
+      <v-col cols="3" align="center">
+        <span class="text-body-1">
+          This page is still a Work In Progress, more of my projects will be
+          entered soon.
+        </span>
       </v-col>
     </v-row>
   </v-container>
@@ -24,10 +32,10 @@ export default {
           "https://github.com/dovakin7/Projet-Ubisoft/tree/main/Projet%20Ubisoft",
         description:
           "Back to the party is a cooperative 2 player game. Each player needs to fulfill certain task to help the other player in order to win the game. " +
-          'This game prototype was developped as port of the Ubisoft Game Lab 2022. The game was nominated for "Best creativity and integration of the theme".',
+          'This game prototype was developped as part of the Ubisoft Game Lab 2022. The game was nominated for "Best creativity and integration of the theme".',
         myRole:
           "In this project I focused on game mechanics that required to be timed or synched over network. I also worked on various, more simple, game mechanics. " +
-          +" I worked with the sound designer to integrate a music that intensify in real time depending on various events in the game.",
+          " I worked with the sound designer to integrate a music that intensify in real time depending on various events in the game.",
         notice:
           "This project was on GitLab and we recently decide to put it on github so the commit and merge request that were on GitLab are not on the github repo.",
         hasAdditionalLink: true,
