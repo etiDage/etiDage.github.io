@@ -58,7 +58,7 @@
 import TechList from "../components/TechList.vue";
 export default {
   components: { TechList },
-  name: "Work",
+  name: "WorkView",
   data: () => ({
     test: "IBM",
     works: [

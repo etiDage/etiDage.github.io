@@ -8,10 +8,10 @@
   </v-container>
 </template>
 <script>
-import Project from "../components/Project.vue";
+import Project from "../components/ProjectComponent.vue";
 export default {
   components: { Project },
-  name: "Projects",
+  name: "ProjectsView",
   data: () => ({
     projects: [
       {

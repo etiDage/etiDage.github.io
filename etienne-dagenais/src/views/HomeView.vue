@@ -21,9 +21,7 @@
               </v-list-item-title>
             </v-list-item-content>
             <v-list-item-action>
-              <v-icon color="primary">
-                mdi-arrow-right
-              </v-icon>
+              <v-icon color="primary"> mdi-arrow-right </v-icon>
             </v-list-item-action>
           </v-list-item>
           <v-list-item to="/projects">
@@ -33,9 +31,7 @@
               </v-list-title>
             </v-list-item-content>
             <v-list-item-action>
-              <v-icon medium color="primary">
-                mdi-arrow-right
-              </v-icon>
+              <v-icon medium color="primary"> mdi-arrow-right </v-icon>
             </v-list-item-action>
           </v-list-item>
           <v-list-item to="/contact">
@@ -45,9 +41,7 @@
               </v-list-item-title>
             </v-list-item-content>
             <v-list-item-action>
-              <v-icon color="primary">
-                mdi-arrow-right
-              </v-icon>
+              <v-icon color="primary"> mdi-arrow-right </v-icon>
             </v-list-item-action>
           </v-list-item>
         </v-list>
@@ -57,6 +51,6 @@
 </template>
 <script>
 export default {
-  name: "Home",
+  name: "HomeView",
 };
 </script>

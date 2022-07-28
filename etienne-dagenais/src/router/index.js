@@ -1,9 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
-import Work from "../views/Work.vue";
-import Projects from "../views/Projects.vue";
-import Contact from "../views/Contact.vue";
+import HomeView from "../views/HomeView.vue";
+import WorkView from "../views/WorkView.vue";
+import ProjectsView from "../views/ProjectsView.vue";
+import ContactView from "../views/ContactView.vue";
 
 Vue.use(VueRouter);
 
@@ -11,22 +11,22 @@ const routes = [
   {
     path: "/home",
     name: "Home",
-    component: Home,
+    component: HomeView,
   },
   {
     path: "/work",
     name: "Work",
-    component: Work,
+    component: WorkView,
   },
   {
     path: "/projects",
     name: "Projects",
-    component: Projects,
+    component: ProjectsView,
   },
   {
     path: "/contact",
     name: "Contact",
-    component: Contact,
+    component: ContactView,
   },
 ];
 
