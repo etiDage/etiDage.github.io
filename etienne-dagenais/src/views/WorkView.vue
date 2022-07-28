@@ -63,7 +63,7 @@ export default {
     test: "IBM",
     works: [
       {
-        title: "Fullstack developper coop",
+        title: "Fullstack Developer",
         workPlace: "IBM, Bromont, QC, Canada",
         companyLogo: "IBM",
         time: "Summer 2022",
@@ -78,7 +78,7 @@ export default {
         techImg: ["img", "img", "img", "img"],
       },
       {
-        title: "Security intern",
+        title: "Front End Developer",
         workPlace: "IBM, Bromont, QC, Canada",
         companyLogo: "IBM",
         time: "Fall 2021",
@@ -92,7 +92,7 @@ export default {
         techImg: ["img", "img", "img", "img"],
       },
       {
-        title: "Software developper coop",
+        title: "Software Developer",
         workPlace: "Mirametrix, Montreal, QC, Canada",
         companyLogo: "mirametrix",
         time: "Winter 2021",
@@ -107,7 +107,7 @@ export default {
         techImg: ["img", "img", "img", "img"],
       },
       {
-        title: "Web developper coop",
+        title: "Web Developer",
         workPlace: "xPayrience, Magog, QC, Canada",
         companyLogo: "xpayrience",
         time: "Summer 2020",
